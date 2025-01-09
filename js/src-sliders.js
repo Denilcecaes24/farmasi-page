@@ -18,7 +18,7 @@ var swiper2 = new Swiper(".mySwiper2", {
     },
     simulateTouch: false,  // Desactiva el deslizamiento táctil (touch)
     grabCursor: false,     // Desactiva el cursor de agarre al hacer hover sobre el slider
-  
+    touch: false
   });
 
   var swiper3 = new Swiper(".mySwiper3", {
