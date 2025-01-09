@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --color-blue: #3498db; /* Azul */
+    --color-green: #2ecc71; /* Verde */
+    --color-blackgray: #5c5c5c; /* Gris oscuro */
+    --color-black: #000; /* Gris oscuro */
+    --color-white: #fff; /* Gris oscuro */
+    --color-orange-prim: #f3742f; /* Gris oscuro */
+    --color-pink-farmasi: #f95c6d;
+
+  }
+
+
+  .my-50{
+    margin: 50px 0;
+  }
+
+  .mto-50{
+    margin-top: 50px;
+  }
+
+  .mto-30{
+    margin-top: 30px;
+  }
+
+  .mto-20{
+    margin-top: 20px;
+  }
+
+  .mto-16{
+    margin-top: 16px;
+  }
+
+  .mto-10{
+    margin-top: 10px;
+  }
+  .mbo-50{
+    margin-bottom: 50px;
+  }
+
+  .mbo-30{
+    margin-bottom: 30px;
+  }
+
+  .mbo-20{
+    margin-bottom: 20px;
+  }
+
+  .mbo-16{
+    margin-bottom: 16px;
+  }
+  .mbo-10{
+    margin-bottom: 10px;
+  }
+
+  .txt-norm{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--color-blackgray);
+  }
+
+  .fw-300{
+    font-weight: 300;
+  }
+
+  .fw-400{
+    font-weight: 400;
+  }
+
+  .fw-500{
+    font-weight: 500;
+  }
+
+  .fw-600{
+    font-weight: 600;
+  }
+
+  .fw-800{
+    font-weight: 800;
+  }
+
+  .fsz-12{
+    font-size: 12px;
+  }
+
+  .fsz-14{
+    font-size: 14px;
+  }
+
+  .fsz-16{
+    font-size: 16px;
+  }
+
+  .fsz-18{
+    font-size: 18px;
+  }
+
+  .fsz-20{
+    font-size: 20px;
+  }
+
+  .fsz-22{
+    font-size: 22px;
+  }
+
+  .fsz-24{
+    font-size: 24px;
+  }
+
+  .clr-black{
+    color: var(--color-black);
+  }
+
+  .clr-blackgray{
+    color: var(--color-blackgray);
+  }
+
+  .clr-white{
+    color: var(--color-white);
+  }
+
+  .clr-pink{
+    color: var(--color-pink-farmasi);
+  }
+
+  .txt-centerr{
+    text-align: center;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.subtitles-page{
+    font-size: 30px;
+    font-weight: 600;
+    color: #5c5c5c;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.sect-tabs-ve{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.main-cont-page{
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+}
+
+/* estilos de las pestañas */
+
+.tabs-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 16px 0;
+        overflow: hidden;
+}
+
+.tab-btn {
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+    padding: ;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    margin: 0 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    color: var(--color-black);
+    border: 1px solid var(--color-pink-farmasi);
+    overflow: hidden;
+
+  }
+
+  .tab-btn .box-img-vender{
+    width: 33%;
+    max-width: 200px;
+    height: auto;
+    padding: 0;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tab-btn .box-img-vender img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+  }
+
+  .tab-btn .box-txt-vender{
+    width: 66%;
+    max-width: 400px;
+    height: auto;
+    padding: 16px;
+    margin: 0 0 0 0;
+  }
+
+
+  .tab-btn .box-txt-vender .btn-title{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+  }
+
+  .tab-btn .box-txt-vender .btn-info{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .tab-btn:hover {
+    background-color: var(--color-pink-farmasi);
+    color: var(--color-white);
+  }
+
+
+  .active-tabb {
+    background-color: var(--color-pink-farmasi);
+  }
+
+
+
+  .info-tabs-container{
+    width: 100%;
+    height: auto;
+    padding: 16px 0;
+    border-radius: 5px;
+}
+
+.tab-content2 {
+    margin: 0;
+    padding: 0;
+    display: none;
+  }
+  
+  .active-content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .info-option{
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    padding: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+  }
+
+  .box-img-opt{
+    width: 20%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-img-opt img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .box-txt-opt{
+    width: 80%;
+    height: auto;
+    padding: 16px;
+    margin: 0 0 0 0;
+  }
+
+
+  .box-txt-opt .btn-title2{
+    font-size: 28px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    color: var(--color-pink-farmasi);
+  }
+
+  .box-txt-opt .btn-info2{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    color: var(--color-blackgray);
+  }
+
+  .box-txt-opt .btn_btn{
+    color: #000;
+    background-color: white;
+    margin: 10px 0 0 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+font-size: 14px;
+font-weight: 400;
+  }
+
+  .vyb-cont{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    padding: 0;
+  }
+
+  .vyb-4{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .box-vyb{
+    width: 25%;
+    height: auto;
+    padding: 0;
+    margin: 0 10px;
+  }
+
+  .box-vyb:first-child{
+    margin-left: 0;
+  }
+
+  .box-vyb:last-child{
+    margin-right: 0;
+  }
+
+
+
+  /* estilos de beneficios secundarios */
+
+  .ben-sec-cont{
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .ben-sec-boxes{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .ben-box{
+    width: 33%;
+    max-width: 360px;
+    height: auto;
+    padding: 16px;
+    margin: 0 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+  }
+
+  .icon-contt{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0 10px 0 0;
+  }
+
+  .icons-ben-sec{
+    font-size: 32px;
+    color: var(--color-pink-farmasi);
+    margin: 0 auto;
+  }
+  
+
+  .vent-ben-cont{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: transparent;
+
+  }
+
+  .sldr-vyb-cont{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: ;
+    position: relative;
+    z-index: 0;
+
+  }
+
+  .sldr-test-cont{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: ;
+    position: relative;
+    z-index: 0;
+
+  }
+
+
+  @media(max-width: 700px) {
+    .info-option{
+      width: 90%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+    }
+
+
+    .box-img-opt{
+      width: 100%;
+      height: auto;
+      margin: 0 0 0 0;
+    }
+  
+    .box-img-opt img{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+  
+    }
+  
+    .box-txt-opt{
+      width: 100%;
+      height: auto;
+      margin: 0 0 0 0;
+    }
+  
+  
+    .box-txt-opt .btn-title2{
+      font-size: 22px;
+    
+    }
+  
+    .box-txt-opt .btn-info2{
+      font-size: 14px;
+     
+    }
+  
+    .box-txt-opt .btn_btn{
+      font-size: 15px;
+    }
+
+    /* esttilos de las opcuiones de vender/emprender */
+
+    .tabs-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 0;
+      overflow: hidden;
+}
+
+.tab-btn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.tab-btn:first-child {
+margin-bottom: 16px;
+
+}
+
+.tab-btn .box-img-vender{
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  padding: 0;
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-btn .box-img-vender img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+
+}
+
+.tab-btn .box-txt-vender{
+  width: 100%;
+  height: auto;
+  margin: 0 0 0 0;
+}
+
+.tab-btn .box-txt-vender .btn-title{
+  font-size: 22px;
+ 
+}
+
+.tab-btn .box-txt-vender .btn-info{
+  font-size: 14px;
+
+}
+
+
+.tab-btn:hover {
+  background-color: var(--color-pink-farmasi);
+  color: var(--color-white);
+}
+
+
+.active-tabb {
+  background-color: var(--color-pink-farmasi);
+}
+
+
+/* estilos de sliders 1 */
+
+.subtitles-page{
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+    
+  }
