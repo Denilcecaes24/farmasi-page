@@ -186,8 +186,9 @@
     justify-content: space-between;
     align-items: start;
     color: var(--color-black);
-    border: 1px solid var(--color-pink-farmasi);
     overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+
 
   }
 
@@ -322,7 +323,7 @@
 
   .box-txt-opt .btn_btn{
     color: #000;
-    background-color: ;
+    background-color: white;
     margin: 10px 0 0 0;
     padding: 5px 10px;
     border-radius: 5px;
