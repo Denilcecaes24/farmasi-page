@@ -445,6 +445,38 @@ font-weight: 400;
   }
 
 
+  .regis-sec{
+    background-image: url('img/vender_natura_banner_2.webp');
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .regis-main-cont{
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+
+
+  }
+
+  .reg-div2{
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+
   @media(max-width: 700px) {
     .info-option{
       width: 90%;
